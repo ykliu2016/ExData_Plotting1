@@ -1,11 +1,11 @@
 
 
 # set working directory to the folder where run_analysis.R is 
-# wdir <- dirname(sys.frame(1)$ofile)  # Please note this line only works if the script is sourced as a whole.
-# setwd(wdir)
-
-wdir <- "/Users/kurtliu/Documents/Data Scientiest_Course/Exploratory Analysis" 
+wdir <- dirname(sys.frame(1)$ofile)  # Please note this line only works if the script is sourced as a whole.
 setwd(wdir)
+
+# wdir <- "/Users/kurtliu/Documents/Data Scientiest_Course/Exploratory Analysis" 
+# setwd(wdir)
 
 
 # If the dataset hasn't been downloaded and unzipped, it will be downloaded and unzipped now to the working directory
